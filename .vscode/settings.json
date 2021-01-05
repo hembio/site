@@ -1,0 +1,18 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "prettier.packageManager": "yarn",
+  "files.autoSave": "onWindowChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.prettier": true
+  },
+  "prettier.trailingComma": "all",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "god.tsconfig": "./tsconfig.json"
+}
