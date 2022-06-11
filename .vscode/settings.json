@@ -3,7 +3,6 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "npm.packageManager": "yarn",
   "eslint.packageManager": "yarn",
-  "prettier.packageManager": "yarn",
   "files.autoSave": "onWindowChange",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
